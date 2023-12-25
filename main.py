@@ -1,17 +1,9 @@
-import numpy as np
-from lab_python_oop.rectangle import Rectangle
-from lab_python_oop.circle import Circle
-from lab_python_oop.square import Square
 
-def main():
-    r = Rectangle(8, 8, "синего")
-    c = Circle(8, "зеленого")
-    s = Square(8, "красного")
-    print(r)
-    print(c)
-    print(s)
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
-    print(np.zeros([2, 3]))
 
+# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    main()
+    print_hi('PyCharm')
